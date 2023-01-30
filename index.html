@@ -1,12 +1,321 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Erick Web Developer</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Erick Estrada Web Developer</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-    <h1>Erick Estrada</h1>
+
+   <!-- custom cursor  -->
+   <img src="images/cursor1.png" class="cursor" alt="">
+   <!-- custom cursor  -->
+
+   <!-- header section starts  -->
+
+   <header class="header">
+
+      <a href="#home" class="logo">Porfolio.</a>
+
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+   </header>
+
+   <!-- header section ends -->
+
+   <nav class="navbar">
+      <a href="#home" data-src="images/ErickEstrada2023-BW.jpg">home</a>
+      <a href="#about" data-src="images/ErickEstrada2023-BW.jpg">about</a>
+      
+      <a href="#projects" data-src="images/ErickEstrada2023-BW.jpg">projects</a>
+      <a href="#contact" data-src="images/ErickEstrada2023-BW.jpg">contact</a>
+   </nav>
+
+   <div class="navbar-img">
+      <img src="images/ErickEstrada2023-BW.jpg" alt="">
+   </div>
+
+   <!-- home section starts  -->
+
+   <section class="home" id="home">
+
+      <h3>hi, my name is</h3>
+      <h3 class="home-text">Erick Alberto Estrada</h3>
+      <h3>i am a Web developer</h3>
+      <img src="images/ErickEstrada2023-Blur.png" class="home-img" alt="">
+      <div class="wave"></div>
+      <div class="wave wave-2"></div>
+      <div class="wave wave-3"></div>
+
+   </section>
+
+   <!-- home section ends -->
+
+   <!-- about section starts  -->
+
+   <section class="about" id="about">
+
+      <div class="skill">
+
+         <div class="box">
+            <h3 class="title">Languages</h3>
+            <div class="progress progress-1">
+               <h3> HTML 5  </h3>
+               <div class="bar"><span></span></div>
+            </div>
+            <div class="progress progress-2">
+               <h3> CSS 3  </h3>
+               <div class="bar"><span></span></div>
+            </div>
+            <div class="progress progress-3">
+               <h3> JavaScript  </h3>
+               <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress progress-4">
+               <h3> Python  </h3>
+               <div class="bar"><span></span></div>
+            </div>
+         </div>
+
+         <div class="box">
+            <h3 class="title">Technologies</h3>
+            <div class="progress progress-5">
+               <h3> REACT</h3>
+               <div class="bar"><span></span></div>
+            </div>
+            <div class="progress progress-6">
+               <h3> Express</h3>
+               <div class="bar"><span></span></div>
+            </div>
+            <div class="progress progress-7">
+               <h3> node.js </h3>
+               <div class="bar"><span></span></div>
+            </div>
+
+            <div class="progress progress-8">
+               <h3> MySQL </h3>
+               <div class="bar"><span></span></div>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="info-container">
+
+         <div class="info">
+            <p> Erick Alberto Estrada <span> : name </span> </p>
+            <p> Full Stack Developer <span> : skill</span> </p>
+            <p> 40 <span> : age</span> </p>
+            <p> male <span> : gender</span> </p>
+            <p> Computer Information Technology <span> : AAS Degree</span> </p>
+            <p> Software Programmer<span> :Specialization</span> </p>
+         </div>
+
+         <div class="image">
+            <img src="images/ErickEstrada40.png" alt="">
+         </div>
+
+         <div class="info">
+            <p> <span> freelance : </span> available </p>
+            <p> <span>language : </span>Spanish, English </p>
+            <p> <span>GitHub : </span> https://github.com/erickdallas30 </p>
+            <p> <span>email : </span> erickdallas30@gmail.com </p>
+            <p> <span>Hobbies : </span> NintendoSwitch, Playstation, Watch Documentaries and my Dog</p>
+            <p> <span>Location : </span> Dallas,TX </p>
+         </div>
+
+      </div>
+
+   </section>
+
+   <!-- about section ends -->
+
+   <!-- services section starts  -->
+
+   <!-- <section class="services" id="services">
+
+      <h1 class="heading"> my services </h1>
+
+      <div class="box-container">
+
+         <div class="box">
+            <img src="images/icon-1.png" alt="">
+            <h3>HTML 5</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, quas.</p>
+            <a href="#" class="btn">read more</a>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-2.png" alt="">
+            <h3>CSS 3</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, quas.</p>
+            <a href="#" class="btn">read more</a>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-3.png" alt="">
+            <h3>JavaScript</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, quas.</p>
+            <a href="#" class="btn">read more</a>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-4.png" alt="">
+            <h3>SASS</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, quas.</p>
+            <a href="#" class="btn">read more</a>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-5.png" alt="">
+            <h3>JQuery</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, quas.</p>
+            <a href="#" class="btn">read more</a>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-6.png" alt="">
+            <h3>react.js</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, quas.</p>
+            <a href="#" class="btn">read more</a>
+         </div>
+
+      </div>
+
+   </section> -->
+
+   <!-- services section ends -->
+
+   <!-- projects section starts  -->
+
+   <section class="projects" id="projects">
+
+      <h1 class="heading"> my projects </h1>
+
+      <div class="box-container">
+         <div class="box">
+            <img src="images/project-4.jpg" alt="">
+            <div class="content">
+               <i class="fas fa-info"></i>
+               <h3>Neigborhood website</h3>
+               
+               <a href="https://front-end-lab.netlify.app/myneighborhood.html" target="_blank" class="btn">Click Here to Watch my Project</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <img src="images/project-5.jpg" alt="">
+            <div class="content">
+               <i class="fas fa-info"></i>
+               <h3>Freelance Web Developer Website -SPANISH</h3>
+               
+               <a href="https://personalweberick40.netlify.app/" target="_blank" class="btn">Click Here to Watch my Project</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <img src="images/project-6.jpg" alt="">
+            <div class="content">
+               <i class="fas fa-info"></i>
+               <h3>Profile Website</h3>
+               
+               <a href="https://front-end-lab.netlify.app/profile.html" target="_blank" class="btn">Click Here to Watch my Project</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <img src="images/project-1.jpg" alt="">
+            <div class="content">
+               <i class="fas fa-info"></i>
+               <h3>Foundations Capstone Project - GAMEUP!</h3>
+               <!-- <p>link here</p> -->
+               <a href="https://github.com/erickdallas30/Foundations-Capstone-Project" target="_blank" class="btn">Click Here to Watch my Project</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <img src="images/project-2.jpg" alt="">
+            <div class="content">
+               <i class="fas fa-info"></i>
+               <h3>WatchList React APP</h3>
+               
+               <a href="https://github.com/erickdallas30/erickdallas30-REACT-movie-watchlist-app" target="_blank" class="btn">Click Here to Watch my Project</a>
+            </div>
+         </div>
+
+         <div class="box">
+            <img src="images/project-3.jpg" alt="">
+            <div class="content">
+               <i class="fas fa-info"></i>
+               <h3>Tic-Tac-Toe React APP</h3>
+               
+               <a href="https://github.com/erickdallas30/REACT-app-tic-tac-toe" target="_blank" class="btn">Click Here to Watch my Project</a>
+            </div>
+         </div>
+
+         
+
+      </div>
+
+   </section>
+
+   <!-- projects section ends -->
+
+   <!-- contact section starts  -->
+
+   <section class="contact" id="contact">
+
+      <h1 class="heading"> contact me </h1>
+
+      <form action="">
+         <input type="text" placeholder="name" class="box">
+         <input type="email" placeholder="email" class="box">
+         <input type="number" placeholder="phone" class="box">
+         <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
+         <input type="submit" value="send message" class="btn">
+      </form>
+
+   </section>
+
+   <!-- contact section ends -->
+
+   <!-- footer section starts  -->
+
+   <section class="footer">
+
+      <div class="share">         
+         <a href="https://github.com/erickdallas30" target="_blank" class="fab fa-github"></a>
+         <a href="https://www.linkedin.com/in/erick-estrada-a0495a196/" target="_blank" class="fab fa-linkedin"></a>
+      </div>
+
+      <div class="link">
+         <a class="btn" href="#home">home</a>
+         <a class="btn" href="#about">about</a>
+         
+         <a class="btn" href="#projects">projects</a>
+         <a class="btn" href="#contact">contact</a>
+      </div>
+
+      <div class="credit"> created by <span>Erick Estrada</span> | all rights reserved! </div>
+
+   </section>
+
+   <!-- footer section ends -->
+
+   <!-- custom js file link  -->
+   <script src="js/script.js"></script>
+
 </body>
+
 </html>
